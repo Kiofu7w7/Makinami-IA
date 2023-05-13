@@ -92,4 +92,8 @@ with open('relaciones.txt', 'w') as archivo:
     for relacion, frecuencia in relaciones.items():
         archivo.write(f'{relacion[0]} , {relacion[1]} : {frecuencia}\n')
 
-#----------------------------SIGUENTE ES LIMPIAR LAS ORACIONES PARA QUITAR PALABRAS INESESARIAS-------------------------------------
+#----------------------------SIGUENTE ES LIMPIAR LAS ORACIONES PARA QUITAR PALABRAS INESESARIAS---------------------------------
+# ----
+
+
+print ("sas")
