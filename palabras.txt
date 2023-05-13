@@ -1,0 +1,10 @@
+hacer: 1
+codigo: 2
+python: 3
+sumas: 4
+numeros: 5
+primos: 6
+c#: 7
+calculadora: 8
+no: 9
+ruby: 10

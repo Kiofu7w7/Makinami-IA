@@ -1,0 +1,5 @@
+
+hacer codigo python sumas numeros primos
+hacer codigo c# calculadora
+hacer codigo c# sumas numeros no primos
+codigo ruby calculadora
