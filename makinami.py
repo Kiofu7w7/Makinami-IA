@@ -2,6 +2,12 @@ oracion = input("Ingrese texto: ") #<- ingreso de texto
 
 oracionS = oracion.split() #<- separacion de oracion por palabras
 
+# Abre el archivo de texto y lee las palabras que contiene
+with open('stopwords.txt', 'r') as archivo:
+    stopwords = archivo.read().split()
+
+oracionS = [palabra for palabra in oracionS if palabra not in stopwords]
+
 #ingreso al archivo historial para ingresar lo copiado
 historial = open("historial.txt", "a")
 historial.write(str("\n" + oracion))
@@ -92,8 +98,4 @@ with open('relaciones.txt', 'w') as archivo:
     for relacion, frecuencia in relaciones.items():
         archivo.write(f'{relacion[0]} , {relacion[1]} : {frecuencia}\n')
 
-#----------------------------SIGUENTE ES LIMPIAR LAS ORACIONES PARA QUITAR PALABRAS INESESARIAS---------------------------------
-# ----
-
-
-print ("sas")
+#----------------------------SIGUENTE ES LIMPIAR LAS ORACIONES PARA QUITAR PALABRAS INESESARIAS-------------------------------------
