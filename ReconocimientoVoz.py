@@ -26,5 +26,5 @@ while text != 'puerta de madera':
             except sr.exceptions.UnknownValueError:
                 print("nada")
             if text == 'Hola':
-                talk('Hola mijo como esta')
+                talk('qiubo papi como fue')
             print(f'Has dicho: {text}')

@@ -6,3 +6,5 @@ son: 5
 pesados: 6
 por: 7
 que: 8
+se: 9
+nada: 10
